@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4212B372193E306D00A854DC"
-               BuildableName = "Swift Showcase.app"
-               BlueprintName = "Swift Showcase"
-               ReferencedContainer = "container:Swift Showcase.xcodeproj">
+               BuildableName = "SwiftShowcase.app"
+               BlueprintName = "SwiftShowcase"
+               ReferencedContainer = "container:SwiftShowcase.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4212B37F193E306D00A854DC"
-               BuildableName = "Swift ShowcaseTests.xctest"
-               BlueprintName = "Swift ShowcaseTests"
-               ReferencedContainer = "container:Swift Showcase.xcodeproj">
+               BuildableName = "SwiftShowcaseTests.xctest"
+               BlueprintName = "SwiftShowcaseTests"
+               ReferencedContainer = "container:SwiftShowcase.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4212B372193E306D00A854DC"
-            BuildableName = "Swift Showcase.app"
-            BlueprintName = "Swift Showcase"
-            ReferencedContainer = "container:Swift Showcase.xcodeproj">
+            BuildableName = "SwiftShowcase.app"
+            BlueprintName = "SwiftShowcase"
+            ReferencedContainer = "container:SwiftShowcase.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4212B372193E306D00A854DC"
-            BuildableName = "Swift Showcase.app"
-            BlueprintName = "Swift Showcase"
-            ReferencedContainer = "container:Swift Showcase.xcodeproj">
+            BuildableName = "SwiftShowcase.app"
+            BlueprintName = "SwiftShowcase"
+            ReferencedContainer = "container:SwiftShowcase.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4212B372193E306D00A854DC"
-            BuildableName = "Swift Showcase.app"
-            BlueprintName = "Swift Showcase"
-            ReferencedContainer = "container:Swift Showcase.xcodeproj">
+            BuildableName = "SwiftShowcase.app"
+            BlueprintName = "SwiftShowcase"
+            ReferencedContainer = "container:SwiftShowcase.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

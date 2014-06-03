@@ -29,23 +29,23 @@
 			containerPortal = 4212B36B193E306D00A854DC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4212B372193E306D00A854DC;
-			remoteInfo = "Swift Showcase";
+			remoteInfo = "SwiftShowcase";
 		};
 		4212B396193E32BE00A854DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4212B36B193E306D00A854DC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4212B372193E306D00A854DC;
-			remoteInfo = "Swift Showcase";
+			remoteInfo = "SwiftShowcase";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4212B373193E306D00A854DC /* Swift Showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4212B373193E306D00A854DC /* SwiftShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4212B377193E306D00A854DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4212B378193E306D00A854DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4212B37A193E306D00A854DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4212B380193E306D00A854DC /* Swift ShowcaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift ShowcaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4212B380193E306D00A854DC /* SwiftShowcaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftShowcaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4212B385193E306D00A854DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4212B386193E306D00A854DC /* Swift_ShowcaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ShowcaseTests.swift; sourceTree = "<group>"; };
 		4212B393193E310B00A854DC /* FirstSwiftPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstSwiftPlayground.swift; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 		4212B36A193E306D00A854DC = {
 			isa = PBXGroup;
 			children = (
-				4212B375193E306D00A854DC /* Swift Showcase */,
-				4212B383193E306D00A854DC /* Swift ShowcaseTests */,
+				4212B375193E306D00A854DC /* SwiftShowcase */,
+				4212B383193E306D00A854DC /* SwiftShowcaseTests */,
 				4212B374193E306D00A854DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,13 +87,13 @@
 		4212B374193E306D00A854DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4212B373193E306D00A854DC /* Swift Showcase.app */,
-				4212B380193E306D00A854DC /* Swift ShowcaseTests.xctest */,
+				4212B373193E306D00A854DC /* SwiftShowcase.app */,
+				4212B380193E306D00A854DC /* SwiftShowcaseTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4212B375193E306D00A854DC /* Swift Showcase */ = {
+		4212B375193E306D00A854DC /* SwiftShowcase */ = {
 			isa = PBXGroup;
 			children = (
 				4212B392193E310B00A854DC /* Playgrounds */,
@@ -101,7 +101,8 @@
 				4212B37A193E306D00A854DC /* Images.xcassets */,
 				4212B376193E306D00A854DC /* Supporting Files */,
 			);
-			path = "Swift Showcase";
+			name = SwiftShowcase;
+			path = "SwiftShowcase";
 			sourceTree = "<group>";
 		};
 		4212B376193E306D00A854DC /* Supporting Files */ = {
@@ -112,7 +113,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4212B383193E306D00A854DC /* Swift ShowcaseTests */ = {
+		4212B383193E306D00A854DC /* SwiftShowcaseTests */ = {
 			isa = PBXGroup;
 			children = (
 				4212B386193E306D00A854DC /* Swift_ShowcaseTests.swift */,
@@ -121,7 +122,8 @@
 				49587483193E4F0C00EC8139 /* Overload.swift */,
 				49587485193E502A00EC8139 /* EnumTests.swift */,
 			);
-			path = "Swift ShowcaseTests";
+			name = SwiftShowcaseTests;
+			path = "SwiftShowcaseTests";
 			sourceTree = "<group>";
 		};
 		4212B384193E306D00A854DC /* Supporting Files */ = {
@@ -146,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4212B372193E306D00A854DC /* Swift Showcase */ = {
+		4212B372193E306D00A854DC /* SwiftShowcase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4212B38A193E306D00A854DC /* Build configuration list for PBXNativeTarget "Swift Showcase" */;
+			buildConfigurationList = 4212B38A193E306D00A854DC /* Build configuration list for PBXNativeTarget "SwiftShowcase" */;
 			buildPhases = (
 				4212B36F193E306D00A854DC /* Sources */,
 				4212B370193E306D00A854DC /* Frameworks */,
@@ -158,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = "Swift Showcase";
-			productName = "Swift Showcase";
-			productReference = 4212B373193E306D00A854DC /* Swift Showcase.app */;
+			name = SwiftShowcase;
+			productName = "SwiftShowcase";
+			productReference = 4212B373193E306D00A854DC /* SwiftShowcase.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4212B37F193E306D00A854DC /* Swift ShowcaseTests */ = {
+		4212B37F193E306D00A854DC /* SwiftShowcaseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4212B38D193E306D00A854DC /* Build configuration list for PBXNativeTarget "Swift ShowcaseTests" */;
+			buildConfigurationList = 4212B38D193E306D00A854DC /* Build configuration list for PBXNativeTarget "SwiftShowcaseTests" */;
 			buildPhases = (
 				4212B37C193E306D00A854DC /* Sources */,
 				4212B37D193E306D00A854DC /* Frameworks */,
@@ -177,9 +179,9 @@
 				4212B382193E306D00A854DC /* PBXTargetDependency */,
 				4212B397193E32BE00A854DC /* PBXTargetDependency */,
 			);
-			name = "Swift ShowcaseTests";
-			productName = "Swift ShowcaseTests";
-			productReference = 4212B380193E306D00A854DC /* Swift ShowcaseTests.xctest */;
+			name = SwiftShowcaseTests;
+			productName = "SwiftShowcaseTests";
+			productReference = 4212B380193E306D00A854DC /* SwiftShowcaseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +202,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4212B36E193E306D00A854DC /* Build configuration list for PBXProject "Swift Showcase" */;
+			buildConfigurationList = 4212B36E193E306D00A854DC /* Build configuration list for PBXProject "SwiftShowcase" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,8 +214,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4212B372193E306D00A854DC /* Swift Showcase */,
-				4212B37F193E306D00A854DC /* Swift ShowcaseTests */,
+				4212B372193E306D00A854DC /* SwiftShowcase */,
+				4212B37F193E306D00A854DC /* SwiftShowcaseTests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		4212B382193E306D00A854DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4212B372193E306D00A854DC /* Swift Showcase */;
+			target = 4212B372193E306D00A854DC /* SwiftShowcase */;
 			targetProxy = 4212B381193E306D00A854DC /* PBXContainerItemProxy */;
 		};
 		4212B397193E32BE00A854DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4212B372193E306D00A854DC /* Swift Showcase */;
+			target = 4212B372193E306D00A854DC /* SwiftShowcase */;
 			targetProxy = 4212B396193E32BE00A854DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -362,9 +364,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "Swift Showcase/Info.plist";
+				INFOPLIST_FILE = "SwiftShowcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftShowcase;
 			};
 			name = Debug;
 		};
@@ -373,16 +375,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "Swift Showcase/Info.plist";
+				INFOPLIST_FILE = "SwiftShowcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftShowcase;
 			};
 			name = Release;
 		};
 		4212B38E193E306D00A854DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swift Showcase.app/Swift Showcase";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftShowcase.app/SwiftShowcase";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -391,10 +393,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Swift ShowcaseTests/Info.plist";
+				INFOPLIST_FILE = "SwiftShowcaseTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftShowcaseTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -402,15 +404,15 @@
 		4212B38F193E306D00A854DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swift Showcase.app/Swift Showcase";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftShowcase.app/SwiftShowcase";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Swift ShowcaseTests/Info.plist";
+				INFOPLIST_FILE = "SwiftShowcaseTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftShowcaseTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -418,7 +420,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4212B36E193E306D00A854DC /* Build configuration list for PBXProject "Swift Showcase" */ = {
+		4212B36E193E306D00A854DC /* Build configuration list for PBXProject "SwiftShowcase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4212B388193E306D00A854DC /* Debug */,
@@ -427,7 +429,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4212B38A193E306D00A854DC /* Build configuration list for PBXNativeTarget "Swift Showcase" */ = {
+		4212B38A193E306D00A854DC /* Build configuration list for PBXNativeTarget "SwiftShowcase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4212B38B193E306D00A854DC /* Debug */,
@@ -436,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4212B38D193E306D00A854DC /* Build configuration list for PBXNativeTarget "Swift ShowcaseTests" */ = {
+		4212B38D193E306D00A854DC /* Build configuration list for PBXNativeTarget "SwiftShowcaseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4212B38E193E306D00A854DC /* Debug */,
