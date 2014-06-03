@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Toto {
+class FirstSwiftPlayground {
     func sayHelloTo(name:String) -> String {
         return "Hello " + name
     }
