@@ -14,7 +14,6 @@
 		4212B3CE193E560A00A854DC /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B3CD193E560A00A854DC /* Protocol.swift */; };
 		4212B3D0193E561700A854DC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B3CF193E561700A854DC /* Extension.swift */; };
 		4212B3D2193E563C00A854DC /* ClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B3D1193E563C00A854DC /* ClassTests.swift */; };
-		421738B4193E9C62003C4373 /* ProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738B3193E9C62003C4373 /* ProtocolTests.swift */; };
 		421738B6193EA3C9003C4373 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738B5193EA3C9003C4373 /* ExtensionTests.swift */; };
 		421738B8193EA6D8003C4373 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738B7193EA6D8003C4373 /* Tuple.swift */; };
 		421738BA193EA70A003C4373 /* TupleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738B9193EA70A003C4373 /* TupleTests.swift */; };
@@ -61,7 +60,6 @@
 		4212B3CD193E560A00A854DC /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		4212B3CF193E561700A854DC /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		4212B3D1193E563C00A854DC /* ClassTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTests.swift; sourceTree = "<group>"; };
-		421738B3193E9C62003C4373 /* ProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolTests.swift; sourceTree = "<group>"; };
 		421738B5193EA3C9003C4373 /* ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		421738B7193EA6D8003C4373 /* Tuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
 		421738B9193EA70A003C4373 /* TupleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TupleTests.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 			children = (
 				4212B386193E306D00A854DC /* HelloTests.swift */,
 				4212B3D1193E563C00A854DC /* ClassTests.swift */,
-				421738B3193E9C62003C4373 /* ProtocolTests.swift */,
 				421738B5193EA3C9003C4373 /* ExtensionTests.swift */,
 				421738B9193EA70A003C4373 /* TupleTests.swift */,
 				4212B384193E306D00A854DC /* Supporting Files */,
@@ -292,7 +289,6 @@
 				421738B6193EA3C9003C4373 /* ExtensionTests.swift in Sources */,
 				49587480193E4DE500EC8139 /* Enum.swift in Sources */,
 				499C910F193E36900096B932 /* Hello.swift in Sources */,
-				421738B4193E9C62003C4373 /* ProtocolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
