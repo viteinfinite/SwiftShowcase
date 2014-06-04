@@ -9,15 +9,23 @@
 /* Begin PBXBuildFile section */
 		4212B379193E306D00A854DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B378193E306D00A854DC /* AppDelegate.swift */; };
 		4212B37B193E306D00A854DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4212B37A193E306D00A854DC /* Images.xcassets */; };
-		4212B394193E310B00A854DC /* FirstSwiftPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B393193E310B00A854DC /* FirstSwiftPlayground.swift */; };
+		4212B394193E310B00A854DC /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B393193E310B00A854DC /* Hello.swift */; };
+		4212B3CC193E55E000A854DC /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B3CB193E55E000A854DC /* Class.swift */; };
+		4212B3CE193E560A00A854DC /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B3CD193E560A00A854DC /* Protocol.swift */; };
+		4212B3D0193E561700A854DC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B3CF193E561700A854DC /* Extension.swift */; };
+		4212B3D2193E563C00A854DC /* ClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B3D1193E563C00A854DC /* ClassTests.swift */; };
+		421738B4193E9C62003C4373 /* ProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738B3193E9C62003C4373 /* ProtocolTests.swift */; };
+		421738B6193EA3C9003C4373 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738B5193EA3C9003C4373 /* ExtensionTests.swift */; };
+		421738B8193EA6D8003C4373 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738B7193EA6D8003C4373 /* Tuple.swift */; };
+		421738BA193EA70A003C4373 /* TupleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738B9193EA70A003C4373 /* TupleTests.swift */; };
 		4958747F193E4DDC00EC8139 /* ChainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4958747E193E4DDC00EC8139 /* ChainingTests.swift */; };
 		49587480193E4DE500EC8139 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF4231193E46EE00181223 /* Enum.swift */; };
 		49587481193E4DE800EC8139 /* Overload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF422F193E45CF00181223 /* Overload.swift */; };
 		49587482193E4DEA00EC8139 /* Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF4233193E4B4800181223 /* Chaining.swift */; };
 		49587484193E4F0C00EC8139 /* Overload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49587483193E4F0C00EC8139 /* Overload.swift */; };
 		49587486193E502A00EC8139 /* EnumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49587485193E502A00EC8139 /* EnumTests.swift */; };
-		499C910E193E36890096B932 /* Swift_ShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B386193E306D00A854DC /* Swift_ShowcaseTests.swift */; };
-		499C910F193E36900096B932 /* FirstSwiftPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B393193E310B00A854DC /* FirstSwiftPlayground.swift */; };
+		499C910E193E36890096B932 /* HelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B386193E306D00A854DC /* HelloTests.swift */; };
+		499C910F193E36900096B932 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B393193E310B00A854DC /* Hello.swift */; };
 		49AF4230193E45CF00181223 /* Overload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF422F193E45CF00181223 /* Overload.swift */; };
 		49AF4232193E46EE00181223 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF4231193E46EE00181223 /* Enum.swift */; };
 		49AF4234193E4B4800181223 /* Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF4233193E4B4800181223 /* Chaining.swift */; };
@@ -29,14 +37,14 @@
 			containerPortal = 4212B36B193E306D00A854DC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4212B372193E306D00A854DC;
-			remoteInfo = "SwiftShowcase";
+			remoteInfo = SwiftShowcase;
 		};
 		4212B396193E32BE00A854DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4212B36B193E306D00A854DC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4212B372193E306D00A854DC;
-			remoteInfo = "SwiftShowcase";
+			remoteInfo = SwiftShowcase;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -47,8 +55,16 @@
 		4212B37A193E306D00A854DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4212B380193E306D00A854DC /* SwiftShowcaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftShowcaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4212B385193E306D00A854DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4212B386193E306D00A854DC /* Swift_ShowcaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ShowcaseTests.swift; sourceTree = "<group>"; };
-		4212B393193E310B00A854DC /* FirstSwiftPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstSwiftPlayground.swift; sourceTree = "<group>"; };
+		4212B386193E306D00A854DC /* HelloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTests.swift; sourceTree = "<group>"; };
+		4212B393193E310B00A854DC /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		4212B3CB193E55E000A854DC /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		4212B3CD193E560A00A854DC /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		4212B3CF193E561700A854DC /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4212B3D1193E563C00A854DC /* ClassTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTests.swift; sourceTree = "<group>"; };
+		421738B3193E9C62003C4373 /* ProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolTests.swift; sourceTree = "<group>"; };
+		421738B5193EA3C9003C4373 /* ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		421738B7193EA6D8003C4373 /* Tuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
+		421738B9193EA70A003C4373 /* TupleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TupleTests.swift; sourceTree = "<group>"; };
 		4958747E193E4DDC00EC8139 /* ChainingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainingTests.swift; sourceTree = "<group>"; };
 		49587483193E4F0C00EC8139 /* Overload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overload.swift; sourceTree = "<group>"; };
 		49587485193E502A00EC8139 /* EnumTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTests.swift; sourceTree = "<group>"; };
@@ -101,8 +117,7 @@
 				4212B37A193E306D00A854DC /* Images.xcassets */,
 				4212B376193E306D00A854DC /* Supporting Files */,
 			);
-			name = SwiftShowcase;
-			path = "SwiftShowcase";
+			path = SwiftShowcase;
 			sourceTree = "<group>";
 		};
 		4212B376193E306D00A854DC /* Supporting Files */ = {
@@ -116,14 +131,17 @@
 		4212B383193E306D00A854DC /* SwiftShowcaseTests */ = {
 			isa = PBXGroup;
 			children = (
-				4212B386193E306D00A854DC /* Swift_ShowcaseTests.swift */,
+				4212B386193E306D00A854DC /* HelloTests.swift */,
+				4212B3D1193E563C00A854DC /* ClassTests.swift */,
+				421738B3193E9C62003C4373 /* ProtocolTests.swift */,
+				421738B5193EA3C9003C4373 /* ExtensionTests.swift */,
+				421738B9193EA70A003C4373 /* TupleTests.swift */,
 				4212B384193E306D00A854DC /* Supporting Files */,
 				4958747E193E4DDC00EC8139 /* ChainingTests.swift */,
 				49587483193E4F0C00EC8139 /* Overload.swift */,
 				49587485193E502A00EC8139 /* EnumTests.swift */,
 			);
-			name = SwiftShowcaseTests;
-			path = "SwiftShowcaseTests";
+			path = SwiftShowcaseTests;
 			sourceTree = "<group>";
 		};
 		4212B384193E306D00A854DC /* Supporting Files */ = {
@@ -137,7 +155,11 @@
 		4212B392193E310B00A854DC /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
-				4212B393193E310B00A854DC /* FirstSwiftPlayground.swift */,
+				4212B393193E310B00A854DC /* Hello.swift */,
+				4212B3CB193E55E000A854DC /* Class.swift */,
+				4212B3CD193E560A00A854DC /* Protocol.swift */,
+				4212B3CF193E561700A854DC /* Extension.swift */,
+				421738B7193EA6D8003C4373 /* Tuple.swift */,
 				49AF422F193E45CF00181223 /* Overload.swift */,
 				49AF4231193E46EE00181223 /* Enum.swift */,
 				49AF4233193E4B4800181223 /* Chaining.swift */,
@@ -161,7 +183,7 @@
 			dependencies = (
 			);
 			name = SwiftShowcase;
-			productName = "SwiftShowcase";
+			productName = SwiftShowcase;
 			productReference = 4212B373193E306D00A854DC /* SwiftShowcase.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -180,7 +202,7 @@
 				4212B397193E32BE00A854DC /* PBXTargetDependency */,
 			);
 			name = SwiftShowcaseTests;
-			productName = "SwiftShowcaseTests";
+			productName = SwiftShowcaseTests;
 			productReference = 4212B380193E306D00A854DC /* SwiftShowcaseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -243,11 +265,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4212B3CC193E55E000A854DC /* Class.swift in Sources */,
+				421738B8193EA6D8003C4373 /* Tuple.swift in Sources */,
 				49AF4230193E45CF00181223 /* Overload.swift in Sources */,
 				49AF4232193E46EE00181223 /* Enum.swift in Sources */,
-				4212B394193E310B00A854DC /* FirstSwiftPlayground.swift in Sources */,
+				4212B3CE193E560A00A854DC /* Protocol.swift in Sources */,
+				4212B394193E310B00A854DC /* Hello.swift in Sources */,
 				4212B379193E306D00A854DC /* AppDelegate.swift in Sources */,
 				49AF4234193E4B4800181223 /* Chaining.swift in Sources */,
+				4212B3D0193E561700A854DC /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,13 +282,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				49587482193E4DEA00EC8139 /* Chaining.swift in Sources */,
+				421738BA193EA70A003C4373 /* TupleTests.swift in Sources */,
+				4212B3D2193E563C00A854DC /* ClassTests.swift in Sources */,
 				49587484193E4F0C00EC8139 /* Overload.swift in Sources */,
 				49587486193E502A00EC8139 /* EnumTests.swift in Sources */,
 				4958747F193E4DDC00EC8139 /* ChainingTests.swift in Sources */,
-				499C910E193E36890096B932 /* Swift_ShowcaseTests.swift in Sources */,
+				499C910E193E36890096B932 /* HelloTests.swift in Sources */,
 				49587481193E4DE800EC8139 /* Overload.swift in Sources */,
+				421738B6193EA3C9003C4373 /* ExtensionTests.swift in Sources */,
 				49587480193E4DE500EC8139 /* Enum.swift in Sources */,
-				499C910F193E36900096B932 /* FirstSwiftPlayground.swift in Sources */,
+				499C910F193E36900096B932 /* Hello.swift in Sources */,
+				421738B4193E9C62003C4373 /* ProtocolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "SwiftShowcase/Info.plist";
+				INFOPLIST_FILE = SwiftShowcase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = SwiftShowcase;
 			};
@@ -375,7 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "SwiftShowcase/Info.plist";
+				INFOPLIST_FILE = SwiftShowcase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = SwiftShowcase;
 			};
@@ -393,7 +423,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SwiftShowcaseTests/Info.plist";
+				INFOPLIST_FILE = SwiftShowcaseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SwiftShowcaseTests;
@@ -409,7 +439,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SwiftShowcaseTests/Info.plist";
+				INFOPLIST_FILE = SwiftShowcaseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = SwiftShowcaseTests;
