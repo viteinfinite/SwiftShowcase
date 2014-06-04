@@ -6,11 +6,10 @@
 //  Copyright (c) 2014 Xebia IT Architects. All rights reserved.
 //
 
-import Foundation
-
 import XCTest
 import SwiftShowcase
 
+/*
 class TupleTests: XCTestCase {
     
     func testA() {
@@ -18,3 +17,4 @@ class TupleTests: XCTestCase {
         XCTAssertTrue(result.drink1.name == "Coke")
     }
 }
+*/

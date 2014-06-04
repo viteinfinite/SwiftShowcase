@@ -11,12 +11,17 @@
 		4212B37B193E306D00A854DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4212B37A193E306D00A854DC /* Images.xcassets */; };
 		4212B394193E310B00A854DC /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B393193E310B00A854DC /* Hello.swift */; };
 		4212B3CC193E55E000A854DC /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B3CB193E55E000A854DC /* Class.swift */; };
-		4212B3CE193E560A00A854DC /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B3CD193E560A00A854DC /* Protocol.swift */; };
 		4212B3D0193E561700A854DC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B3CF193E561700A854DC /* Extension.swift */; };
 		4212B3D2193E563C00A854DC /* ClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B3D1193E563C00A854DC /* ClassTests.swift */; };
 		421738B6193EA3C9003C4373 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738B5193EA3C9003C4373 /* ExtensionTests.swift */; };
 		421738B8193EA6D8003C4373 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738B7193EA6D8003C4373 /* Tuple.swift */; };
 		421738BA193EA70A003C4373 /* TupleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738B9193EA70A003C4373 /* TupleTests.swift */; };
+		421738BE193F0C61003C4373 /* ClosureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738BB193F0C60003C4373 /* ClosureTests.swift */; };
+		421738BF193F0C61003C4373 /* ProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738BC193F0C60003C4373 /* ProtocolTests.swift */; };
+		421738C0193F0C61003C4373 /* SubscriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738BD193F0C61003C4373 /* SubscriptTests.swift */; };
+		421738C4193F0C81003C4373 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738C1193F0C81003C4373 /* Closure.swift */; };
+		421738C5193F0C81003C4373 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738C2193F0C81003C4373 /* Protocol.swift */; };
+		421738C6193F0C81003C4373 /* Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421738C3193F0C81003C4373 /* Subscript.swift */; };
 		4958747F193E4DDC00EC8139 /* ChainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4958747E193E4DDC00EC8139 /* ChainingTests.swift */; };
 		49587480193E4DE500EC8139 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF4231193E46EE00181223 /* Enum.swift */; };
 		49587481193E4DE800EC8139 /* Overload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF422F193E45CF00181223 /* Overload.swift */; };
@@ -57,12 +62,17 @@
 		4212B386193E306D00A854DC /* HelloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTests.swift; sourceTree = "<group>"; };
 		4212B393193E310B00A854DC /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
 		4212B3CB193E55E000A854DC /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
-		4212B3CD193E560A00A854DC /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		4212B3CF193E561700A854DC /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		4212B3D1193E563C00A854DC /* ClassTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTests.swift; sourceTree = "<group>"; };
 		421738B5193EA3C9003C4373 /* ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		421738B7193EA6D8003C4373 /* Tuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
 		421738B9193EA70A003C4373 /* TupleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TupleTests.swift; sourceTree = "<group>"; };
+		421738BB193F0C60003C4373 /* ClosureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureTests.swift; sourceTree = "<group>"; };
+		421738BC193F0C60003C4373 /* ProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolTests.swift; sourceTree = "<group>"; };
+		421738BD193F0C61003C4373 /* SubscriptTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptTests.swift; sourceTree = "<group>"; };
+		421738C1193F0C81003C4373 /* Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		421738C2193F0C81003C4373 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		421738C3193F0C81003C4373 /* Subscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscript.swift; sourceTree = "<group>"; };
 		4958747E193E4DDC00EC8139 /* ChainingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainingTests.swift; sourceTree = "<group>"; };
 		49587483193E4F0C00EC8139 /* Overload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overload.swift; sourceTree = "<group>"; };
 		49587485193E502A00EC8139 /* EnumTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTests.swift; sourceTree = "<group>"; };
@@ -129,14 +139,17 @@
 		4212B383193E306D00A854DC /* SwiftShowcaseTests */ = {
 			isa = PBXGroup;
 			children = (
+				4212B384193E306D00A854DC /* Supporting Files */,
 				4212B386193E306D00A854DC /* HelloTests.swift */,
 				4212B3D1193E563C00A854DC /* ClassTests.swift */,
+				421738BC193F0C60003C4373 /* ProtocolTests.swift */,
 				421738B5193EA3C9003C4373 /* ExtensionTests.swift */,
 				421738B9193EA70A003C4373 /* TupleTests.swift */,
-				4212B384193E306D00A854DC /* Supporting Files */,
 				4958747E193E4DDC00EC8139 /* ChainingTests.swift */,
 				49587483193E4F0C00EC8139 /* Overload.swift */,
 				49587485193E502A00EC8139 /* EnumTests.swift */,
+				421738BB193F0C60003C4373 /* ClosureTests.swift */,
+				421738BD193F0C61003C4373 /* SubscriptTests.swift */,
 			);
 			path = SwiftShowcaseTests;
 			sourceTree = "<group>";
@@ -154,12 +167,14 @@
 			children = (
 				4212B393193E310B00A854DC /* Hello.swift */,
 				4212B3CB193E55E000A854DC /* Class.swift */,
-				4212B3CD193E560A00A854DC /* Protocol.swift */,
+				421738C2193F0C81003C4373 /* Protocol.swift */,
 				4212B3CF193E561700A854DC /* Extension.swift */,
 				421738B7193EA6D8003C4373 /* Tuple.swift */,
 				49AF422F193E45CF00181223 /* Overload.swift */,
 				49AF4231193E46EE00181223 /* Enum.swift */,
 				49AF4233193E4B4800181223 /* Chaining.swift */,
+				421738C1193F0C81003C4373 /* Closure.swift */,
+				421738C3193F0C81003C4373 /* Subscript.swift */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
@@ -265,10 +280,12 @@
 				4212B3CC193E55E000A854DC /* Class.swift in Sources */,
 				421738B8193EA6D8003C4373 /* Tuple.swift in Sources */,
 				49AF4230193E45CF00181223 /* Overload.swift in Sources */,
+				421738C4193F0C81003C4373 /* Closure.swift in Sources */,
 				49AF4232193E46EE00181223 /* Enum.swift in Sources */,
-				4212B3CE193E560A00A854DC /* Protocol.swift in Sources */,
+				421738C5193F0C81003C4373 /* Protocol.swift in Sources */,
 				4212B394193E310B00A854DC /* Hello.swift in Sources */,
 				4212B379193E306D00A854DC /* AppDelegate.swift in Sources */,
+				421738C6193F0C81003C4373 /* Subscript.swift in Sources */,
 				49AF4234193E4B4800181223 /* Chaining.swift in Sources */,
 				4212B3D0193E561700A854DC /* Extension.swift in Sources */,
 			);
@@ -282,11 +299,14 @@
 				421738BA193EA70A003C4373 /* TupleTests.swift in Sources */,
 				4212B3D2193E563C00A854DC /* ClassTests.swift in Sources */,
 				49587484193E4F0C00EC8139 /* Overload.swift in Sources */,
+				421738BF193F0C61003C4373 /* ProtocolTests.swift in Sources */,
 				49587486193E502A00EC8139 /* EnumTests.swift in Sources */,
 				4958747F193E4DDC00EC8139 /* ChainingTests.swift in Sources */,
+				421738C0193F0C61003C4373 /* SubscriptTests.swift in Sources */,
 				499C910E193E36890096B932 /* HelloTests.swift in Sources */,
 				49587481193E4DE800EC8139 /* Overload.swift in Sources */,
 				421738B6193EA3C9003C4373 /* ExtensionTests.swift in Sources */,
+				421738BE193F0C61003C4373 /* ClosureTests.swift in Sources */,
 				49587480193E4DE500EC8139 /* Enum.swift in Sources */,
 				499C910F193E36900096B932 /* Hello.swift in Sources */,
 			);
