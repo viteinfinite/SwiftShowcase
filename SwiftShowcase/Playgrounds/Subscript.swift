@@ -15,11 +15,7 @@ let squareTable: Dictionary<Int, Int> = [
 
 class SquareComputing {
     subscript (num: Int) -> Int {
-        if let result = squareTable[num] {
-            return result
-        }
-        return num * num
-//        TODO - should return square of the given value
-//        return 0
+        // TODO - should return square of the given value using the squareTable or the square for other values
+        return 0
     }
 }

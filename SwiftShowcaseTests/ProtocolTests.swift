@@ -6,10 +6,9 @@
 //  Copyright (c) 2014 Xebia IT Architects. All rights reserved.
 //
 
-import Foundation
 import XCTest
+import SwiftShowcase
 
-/*
 class ProtocolTests: XCTestCase {
     
     func testSquareArea() {
@@ -43,4 +42,4 @@ class ProtocolTests: XCTestCase {
         XCTAssertEqual(result, expected, "Computed area \(result) should be \(expected)")
     }
 }
-*/
+
