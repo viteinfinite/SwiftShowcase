@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Xebia IT Architects. All rights reserved.
 //
 
-// https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-XID_22
+// https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Protocols.html#//apple_ref/doc/uid/TP40014097-CH25-XID_345
 // TODO:
 // Uncomment the lines between /* */
 
