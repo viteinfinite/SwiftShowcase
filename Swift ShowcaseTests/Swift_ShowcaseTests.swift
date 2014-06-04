@@ -20,8 +20,8 @@ class Swift_ShowcaseTests: XCTestCase {
         super.tearDown()
     }
     
-    func FirstSwiftTest() {
+    func testFirst() {
         var x = FirstSwiftPlayground()
-        XCTAssert(x.sayHelloTo("World") == "Hello World", "Pass")
+        XCTAssert(x.sayHelloTo("World") == "Hello World")
     }
 }

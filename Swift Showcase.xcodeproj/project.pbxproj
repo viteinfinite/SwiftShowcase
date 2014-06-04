@@ -9,8 +9,18 @@
 /* Begin PBXBuildFile section */
 		4212B379193E306D00A854DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B378193E306D00A854DC /* AppDelegate.swift */; };
 		4212B37B193E306D00A854DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4212B37A193E306D00A854DC /* Images.xcassets */; };
-		4212B387193E306D00A854DC /* Swift_ShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B386193E306D00A854DC /* Swift_ShowcaseTests.swift */; };
 		4212B394193E310B00A854DC /* FirstSwiftPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B393193E310B00A854DC /* FirstSwiftPlayground.swift */; };
+		4958747F193E4DDC00EC8139 /* ChainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4958747E193E4DDC00EC8139 /* ChainingTests.swift */; };
+		49587480193E4DE500EC8139 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF4231193E46EE00181223 /* Enum.swift */; };
+		49587481193E4DE800EC8139 /* Overload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF422F193E45CF00181223 /* Overload.swift */; };
+		49587482193E4DEA00EC8139 /* Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF4233193E4B4800181223 /* Chaining.swift */; };
+		49587484193E4F0C00EC8139 /* Overload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49587483193E4F0C00EC8139 /* Overload.swift */; };
+		49587486193E502A00EC8139 /* EnumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49587485193E502A00EC8139 /* EnumTests.swift */; };
+		499C910E193E36890096B932 /* Swift_ShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B386193E306D00A854DC /* Swift_ShowcaseTests.swift */; };
+		499C910F193E36900096B932 /* FirstSwiftPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212B393193E310B00A854DC /* FirstSwiftPlayground.swift */; };
+		49AF4230193E45CF00181223 /* Overload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF422F193E45CF00181223 /* Overload.swift */; };
+		49AF4232193E46EE00181223 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF4231193E46EE00181223 /* Enum.swift */; };
+		49AF4234193E4B4800181223 /* Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF4233193E4B4800181223 /* Chaining.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +49,12 @@
 		4212B385193E306D00A854DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4212B386193E306D00A854DC /* Swift_ShowcaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ShowcaseTests.swift; sourceTree = "<group>"; };
 		4212B393193E310B00A854DC /* FirstSwiftPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstSwiftPlayground.swift; sourceTree = "<group>"; };
+		4958747E193E4DDC00EC8139 /* ChainingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainingTests.swift; sourceTree = "<group>"; };
+		49587483193E4F0C00EC8139 /* Overload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overload.swift; sourceTree = "<group>"; };
+		49587485193E502A00EC8139 /* EnumTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTests.swift; sourceTree = "<group>"; };
+		49AF422F193E45CF00181223 /* Overload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overload.swift; sourceTree = "<group>"; };
+		49AF4231193E46EE00181223 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		49AF4233193E4B4800181223 /* Chaining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chaining.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,9 @@
 			children = (
 				4212B386193E306D00A854DC /* Swift_ShowcaseTests.swift */,
 				4212B384193E306D00A854DC /* Supporting Files */,
+				4958747E193E4DDC00EC8139 /* ChainingTests.swift */,
+				49587483193E4F0C00EC8139 /* Overload.swift */,
+				49587485193E502A00EC8139 /* EnumTests.swift */,
 			);
 			path = "Swift ShowcaseTests";
 			sourceTree = "<group>";
@@ -117,6 +136,9 @@
 			isa = PBXGroup;
 			children = (
 				4212B393193E310B00A854DC /* FirstSwiftPlayground.swift */,
+				49AF422F193E45CF00181223 /* Overload.swift */,
+				49AF4231193E46EE00181223 /* Enum.swift */,
+				49AF4233193E4B4800181223 /* Chaining.swift */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
@@ -219,8 +241,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49AF4230193E45CF00181223 /* Overload.swift in Sources */,
+				49AF4232193E46EE00181223 /* Enum.swift in Sources */,
 				4212B394193E310B00A854DC /* FirstSwiftPlayground.swift in Sources */,
 				4212B379193E306D00A854DC /* AppDelegate.swift in Sources */,
+				49AF4234193E4B4800181223 /* Chaining.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +253,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4212B387193E306D00A854DC /* Swift_ShowcaseTests.swift in Sources */,
+				49587482193E4DEA00EC8139 /* Chaining.swift in Sources */,
+				49587484193E4F0C00EC8139 /* Overload.swift in Sources */,
+				49587486193E502A00EC8139 /* EnumTests.swift in Sources */,
+				4958747F193E4DDC00EC8139 /* ChainingTests.swift in Sources */,
+				499C910E193E36890096B932 /* Swift_ShowcaseTests.swift in Sources */,
+				49587481193E4DE800EC8139 /* Overload.swift in Sources */,
+				49587480193E4DE500EC8139 /* Enum.swift in Sources */,
+				499C910F193E36900096B932 /* FirstSwiftPlayground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +434,7 @@
 				4212B38C193E306D00A854DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4212B38D193E306D00A854DC /* Build configuration list for PBXNativeTarget "Swift ShowcaseTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +443,7 @@
 				4212B38F193E306D00A854DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
