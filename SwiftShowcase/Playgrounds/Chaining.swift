@@ -10,18 +10,12 @@ import Foundation
 
 class Company {
     var employees: Array<Employee>?
-
-    init() {
-        
-    }
+    
+    // @TODO smthg ;)
 
     func firstEmployeeJob() -> String? {
-        return self.employees?[0].job
-    }
-
-    func firstEmployeeWithAddressContaining(matcher: String) -> Array<Employee>? {
+        // @TODO return 1st employee job
         return nil
-        //return self.employees?.filter({ employee in employee.address == nil }) || Array<Employee>()
     }
 }
 

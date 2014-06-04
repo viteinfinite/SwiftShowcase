@@ -18,10 +18,10 @@ class Tweet {
     }
 }
 
-func tweet(tweet: Tweet) -> String {
-    return "\(tweet.author) tweeted \(tweet.message)"
-}
-
-func tweet(author: String, message: String) -> String {
-    return tweet(Tweet(author: author, message: message))
-}
+/**
+*
+* @TODO Define tweet() method
+* @params a Tweet instance OR an author and a message
+* @return String
+*
+*/

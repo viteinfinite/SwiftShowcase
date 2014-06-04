@@ -8,6 +8,7 @@
 
 import XCTest
 
+/*
 class OverloadTests : XCTestCase {
 
     func tweetTest() {
@@ -19,4 +20,4 @@ class OverloadTests : XCTestCase {
     func tweetWithTextTest() {
         XCTAssert(tweet("Xebia", "welcome to our HandsOn!") == "Xebia tweeted welcome to our HandsOn!")
     }
-}
+}*/

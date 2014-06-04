@@ -13,12 +13,9 @@ enum CompassPoint: String {
     case South = "South"
     case East = "East"
     case West = "WildWildWest"
-
-    func description() -> String {
-        return "this is " + self.toRaw()
-    }
 }
 
 func compassPoint(compassPoint: CompassPoint) -> String? {
-    return compassPoint.description()
+    // @TODO return  "this is " + compass value
+    return nil
 }
